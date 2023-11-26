@@ -1,0 +1,26 @@
+.header {
+    display: 'flex';
+    justify-Content: 'space-between';
+    align-Items: 'center';
+    padding: '10px';
+    background-Color: '#eee';
+}
+
+.logoContainer {
+    margin-Right: '20px';
+}
+
+.logo {
+    width: '50px';
+    height: 'auto';
+}
+
+.textContainer {
+    flex: 1;
+    text-Align: 'center';
+}
+
+.headerText {
+    margin: 0;
+    font-Size: '1.5em';
+}

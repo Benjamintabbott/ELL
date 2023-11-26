@@ -1,0 +1,36 @@
+
+.round-button-container {
+    position: absolute;
+    top: 10rem;
+    left: 1rem
+}
+
+.round-button {
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #34db5e; /* Blue color, you can customize */
+    color: #fff; /* White color for text, you can customize */
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for the back arrow icon */
+  .round-button::before {
+    content: '\25C0'; /* Unicode character for left arrow */
+    font-size: 30px; /* Adjust the font size as needed */
+    color: #fff; /* White color for the arrow, you can customize */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .round-button:hover {
+    transform: scale(1.1);
+}
