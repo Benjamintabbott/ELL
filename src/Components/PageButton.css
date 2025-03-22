@@ -1,7 +1,7 @@
 
 .round-button-container {
     position: absolute;
-    top: 10rem;
+    top: 6rem;
     left: 1rem
 }
 
@@ -10,7 +10,7 @@
     padding: 30px 40px;
     font-size: 16px;
     text-decoration: none;
-    background-color: #34db5e; /* Blue color, you can customize */
+    background-color: #6704b8; /* Blue color, you can customize */
     color: #fff; /* White color for text, you can customize */
     border: none;
     border-radius: 100px;
@@ -22,8 +22,9 @@
   
   /* Styles for the back arrow icon */
   .round-button::before {
-    content: '\25C0'; /* Unicode character for left arrow */
-    font-size: 30px; /* Adjust the font size as needed */
+    content: '\2B05'; /* Unicode character for left arrow */
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: 800;
     color: #fff; /* White color for the arrow, you can customize */
     position: absolute;
     top: 50%;

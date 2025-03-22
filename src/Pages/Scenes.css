@@ -1,0 +1,10 @@
+.image-container {
+    display:flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.image-container .image {
+    width: 63vw;
+}
